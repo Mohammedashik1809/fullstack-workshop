@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Satisfaction Survey</title>
+    <link rel="stylesheet" href="../CSS/survey-form-v2.css">
+  </head>
+  <body>
+    <form action="#" method="post">
+      <legend>Section-1 Personal Information</legend>
+      <fieldset>
+        <label for="Full Name">Full Name:</label>
+        <input type="text" />
+        <br />
+        <br />
+        <label for="Email">Email:</label>
+        <input type="email" />
+        <br />
+        <br />
+        <label for="phone">Phone:</label>
+        <input type="tel" />
+        <br />
+        <br />
+        <label for="Age">Age Range:</label>
+        <select id="ageRange" name="ageRange">
+          <option value="">-- Select Age Range --</option>
+          <option value="under18">Under 18</option>
+          <option value="18-24">18–24</option>
+          <option value="25-34">25–34</option>
+          <option value="35-44">35–44</option>
+          <option value="45-54">45–54</option>
+          <option value="55plus">55+</option>
+        </select>
+        <br />
+        <br />
+        <label>Gender:</label><br />
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label><br />
+        <input
+          type="radio"
+          id="notSay"
+          name="gender"
+          value="prefer_not_to_say"
+        />
+        <label for="notSay">Prefer not to say</label>
+        <br />
+      </fieldset>
+      <label for="Section 2: Product Feedback"
+        >Section 2: Product Feedback</label
+      >
+      <fieldset>
+        <label>Product-Used:</label> <br />
+        <input
+          type="checkbox"
+          id="Product A - Web Application"
+          name="Product-Used"
+          value="Product A - Web Application"
+        />
+        <label for="Product A - Web Application"
+          >Product A - Web Application</label
+        ><br />
+        <input
+          type="checkbox"
+          id="Product B - Mobile App"
+          name="Product-Used"
+          value="Product B - Mobile App"
+        />
+        <label for="Product B - Mobile App">Product B - Mobile App</label><br />
+        <input
+          type="checkbox"
+          id="Product C - Desktop Software"
+          name="Product-Used"
+          value="Product C - Desktop Software"
+        />
+        <label for="Product C - Desktop Software"
+          >Product C - Desktop Software</label
+        ><br />
+        <input
+          type="checkbox"
+          id=" Product D - API Services"
+          name="Product-Used"
+          value=" Product D - API Services"
+        />
+        <label for=" Product D - API Services"> Product D - API Services</label
+        ><br />
+        <input
+          type="checkbox"
+          id=" Product E - Cloud Storage"
+          name="Product-Used"
+          value=" Product E - Cloud Storage"
+        />
+        <label for=" Product E - Cloud Storage">
+          Product E - Cloud Storage</label
+        ><br />
+
+        <label for="Primary-Product">Primary-Product:</label>
+        <select name="Primary-Product" id="Primary-Product">
+          <option value="">-Primary-Product-</option>
+          <option value="Product A - Web Application">
+            Product A - Web Application
+          </option>
+          <option value="Product B - Mobile App">Product B - Mobile App</option>
+          <option value="Product C - Desktop Software">
+            Product C - Desktop Software
+          </option>
+          <option value="Product D - API Services">
+            Product D - API Services
+          </option>
+          <option value="Product E - Cloud Storage">
+            Product E - Cloud Storage
+          </option></select
+        ><br />
+        <label for="How long have you been a customer?"
+          >How long have you been a customer?:</label
+        >
+        <select
+          name="How long have you been a customer?"
+          id="How long have you been a customer?"
+        >
+          <option value="">-How long have you been a customer?-</option>
+          <option value="Less than 1 month">Less than 1 month</option>
+          <option value="1-6 months">1-6 months</option>
+          <option value="6-12 months">6-12 months</option>
+          <option value="1-2 years">1-2 years</option>
+          <option value="More than 2 years">More than 2 years</option>
+        </select>
+      </fieldset>
+
+      <label>Section 3: Satisfaction Rating</label>
+      <fieldset>
+        <label>Overall Satisfaction:</label><br />
+        <input type="radio" name="overall_satisfaction" value="1" /> ⭐
+        <input type="radio" name="overall_satisfaction" value="2" /> ⭐⭐
+        <input type="radio" name="overall_satisfaction" value="3" /> ⭐⭐⭐
+        <input type="radio" name="overall_satisfaction" value="4" /> ⭐⭐⭐⭐
+        <input type="radio" name="overall_satisfaction" value="5" /> ⭐⭐⭐⭐⭐
+        <br /><br />
+
+        <label for="product_quality">Product Quality (1–10):</label><br />
+        <input
+          type="range"
+          id="product_quality"
+          name="product_quality"
+          min="1"
+          max="10"
+        />
+        <br /><br />
+
+        <label for="customer_support">Customer Support (1–10):</label><br />
+        <input
+          type="range"
+          id="customer_support"
+          name="customer_support"
+          min="1"
+          max="10"
+        />
+        <br /><br />
+
+        <label for="value_money">Value for Money (1–10):</label><br />
+        <input
+          type="range"
+          id="value_money"
+          name="value_money"
+          min="1"
+          max="10"
+        />
+        <br /><br />
+
+        <label>Would you recommend us?</label><br />
+        <input type="radio" name="recommend" value="definitely" />
+        Definitely<br />
+        <input type="radio" name="recommend" value="probably" /> Probably<br />
+        <input type="radio" name="recommend" value="not_sure" /> Not sure<br />
+        <input type="radio" name="recommend" value="probably_not" /> Probably
+        not<br />
+        <input type="radio" name="recommend" value="definitely_not" />
+        Definitely not<br />
+      </fieldset>
+
+      <label>Section 4: Detailed Feedback</label>
+      <fieldset>
+        <label for="like_most">What do you like most?</label><br />
+        <textarea
+          id="like_most"
+          name="like_most"
+          rows="4"
+          maxlength="500"
+          placeholder="Write up to 500 characters..."
+        ></textarea>
+        <br /><br />
+
+        <label for="improve">What can we improve?</label><br />
+        <textarea
+          id="improve"
+          name="improve"
+          rows="4"
+          maxlength="500"
+          placeholder="Write up to 500 characters..."
+        ></textarea>
+        <br /><br />
+
+        <label for="additional_comments">Additional Comments</label><br />
+        <textarea
+          id="additional_comments"
+          name="additional_comments"
+          rows="6"
+          maxlength="1000"
+          placeholder="Write up to 1000 characters..."
+        ></textarea>
+      </fieldset>
+
+      <label>Section 5: Contact Preferences</label>
+      <fieldset>
+        
+        <label>Preferred Contact Method:</label><br />
+        <input
+          type="checkbox"
+          id="contact_email"
+          name="contact_method"
+          value="email"
+        />
+        <label for="contact_email">Email</label><br />
+
+        <input
+          type="checkbox"
+          id="contact_phone"
+          name="contact_method"
+          value="phone"
+        />
+        <label for="contact_phone">Phone</label><br />
+
+        <input
+          type="checkbox"
+          id="contact_sms"
+          name="contact_method"
+          value="sms"
+        />
+        <label for="contact_sms">SMS</label><br />
+
+        <input
+          type="checkbox"
+          id="contact_none"
+          name="contact_method"
+          value="none"
+        />
+        <label for="contact_none">No contact</label>
+        <br /><br />
+
+        
+        <label for="contact_time">Best Time to Contact:</label><br />
+        <select id="contact_time" name="contact_time[]" multiple>
+          <option value="morning">Morning (9am–12pm)</option>
+          <option value="afternoon">Afternoon (12pm–5pm)</option>
+          <option value="evening">Evening (5pm–8pm)</option>
+        </select>
+        <br /><br />
+
+        
+        <input type="checkbox" id="newsletter" name="newsletter" />
+        <label for="newsletter">Subscribe to Newsletter</label>
+        <br /><br />
+
+       
+        <input type="checkbox" id="terms" name="terms" required />
+        <label for="terms">I agree to the Terms and Conditions *</label>
+      </fieldset>
+    </form>
+  </body>
+</html>
