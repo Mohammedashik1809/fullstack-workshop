@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Comparison - Laptops</title>
+</head>
+<body>
+
+<header>
+    <img src="https://via.placeholder.com/120x40?text=LOGO"
+         alt="Company Logo">
+    <nav>
+        <ul>
+            <li><a href="#filters">Filters</a></li>
+            <li><a href="#comparison">Compare</a></li>
+            <li><a href="#details">Details</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<!-- ================= FILTER SECTION ================= -->
+<aside class="filters" id="filters">
+<form id="filter-form">
+<fieldset>
+<legend>Filter Products</legend>
+
+<div class="filter-group">
+<span>Brand:</span>
+<label><input type="checkbox" name="brand" value="apple"> Apple</label>
+<label><input type="checkbox" name="brand" value="dell"> Dell</label>
+<label><input type="checkbox" name="brand" value="hp"> HP</label>
+<label><input type="checkbox" name="brand" value="lenovo"> Lenovo</label>
+</div>
+
+<div class="filter-group">
+<label for="price-range">
+Max Price: $<output id="price-output">2000</output>
+</label>
+<label for="price-range">
+  Max Price: $<output id="price-output">2000</output>
+</label>
+
+<input type="range"
+       id="price-range"
+       name="max-price"
+       min="500"
+       max="3000"
+       step="100"
+       value="2000"
+       oninput="document.getElementById('price-output').value = this.value">
+
+</div>
+
+<div class="filter-group">
+<label for="sort-by">Sort By:</label>
+<select id="sort-by" name="sort">
+<option value="price-low">Price: Low to High</option>
+<option value="price-high">Price: High to Low</option>
+<option value="rating">Rating</option>
+<option value="name">Name</option>
+</select>
+</div>
+
+<button type="submit">Apply Filters</button>
+<button type="reset">Reset</button>
+
+</fieldset>
+</form>
+</aside>
+
+<!-- ================= COMPARISON TABLE ================= -->
+<section id="comparison">
+<table class="comparison-table">
+<caption>Laptop Comparison Chart</caption>
+
+<thead>
+<tr>
+<th scope="col">Feature</th>
+<th scope="col">
+<img src="https://picsum.photos/100?1" alt="MacBook Pro">
+<br>MacBook Pro 14"
+</th>
+<th scope="col">
+<img src="https://picsum.photos/100?2" alt="Dell XPS 15">
+<br>Dell XPS 15
+</th>
+<th scope="col">
+<img src="https://picsum.photos/100?3" alt="HP Spectre">
+<br>HP Spectre x360
+</th>
+<th scope="col">
+<img src="https://picsum.photos/100?4" alt="ThinkPad X1">
+<br>ThinkPad X1 Carbon
+</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><th scope="row">Price</th><td>$1,999</td><td>$1,499</td><td>$1,399</td><td>$1,649</td></tr>
+<tr><th scope="row">Display</th><td>14.2" XDR</td><td>15.6" OLED</td><td>13.5" OLED</td><td>14" IPS</td></tr>
+<tr><th scope="row">Processor</th><td>M3 Pro</td><td>i7-13700H</td><td>i7-1360P</td><td>i7-1365U</td></tr>
+<tr><th scope="row">RAM</th><td>18GB</td><td>16GB</td><td>16GB</td><td>16GB</td></tr>
+<tr><th scope="row">Storage</th><td>512GB SSD</td><td>512GB SSD</td><td>512GB SSD</td><td>512GB SSD</td></tr>
+<tr><th scope="row">Battery</th><td>17 hrs</td><td>13 hrs</td><td>15 hrs</td><td>15 hrs</td></tr>
+<tr><th scope="row">Weight</th><td>1.6 kg</td><td>1.86 kg</td><td>1.36 kg</td><td>1.12 kg</td></tr>
+<tr><th scope="row">Rating</th><td>★★★★★</td><td>★★★★☆</td><td>★★★★☆</td><td>★★★★★</td></tr>
+<tr><th scope="row">Touchscreen</th><td>✗</td><td>✓</td><td>✓</td><td>✗</td></tr>
+</tbody>
+
+<tfoot>
+<tr>
+<th scope="row">Action</th>
+<td><button>Add to Cart</button></td>
+<td><button>Add to Cart</button></td>
+<td><button>Add to Cart</button></td>
+<td><button>Add to Cart</button></td>
+</tr>
+</tfoot>
+
+</table>
+</section>
+
+<!-- ================= PRODUCT DETAILS ================= -->
+<section class="product-details" id="details">
+
+<article class="product-card">
+<figure>
+<img src="https://picsum.photos/300?5" alt="MacBook Pro 14 inch">
+<figcaption>MacBook Pro 14"</figcaption>
+</figure>
+
+<h3>MacBook Pro 14" (2024)</h3>
+<p class="price">$1,999</p>
+
+<details>
+<summary>View Specifications</summary>
+<dl>
+<dt>Processor</dt><dd>Apple M3 Pro</dd>
+<dt>Memory</dt><dd>18GB Unified</dd>
+<dt>Storage</dt><dd>512GB SSD</dd>
+<dt>Display</dt><dd>14.2" Liquid Retina XDR</dd>
+</dl>
+</details>
+
+<details>
+<summary>What's in the Box</summary>
+<ul>
+<li>MacBook Pro</li>
+<li>USB-C Power Adapter</li>
+<li>USB-C Cable</li>
+</ul>
+</details>
+
+<form>
+<label>Quantity:
+<input type="number" min="1" max="10" value="1">
+</label>
+
+<label>Color:
+<select>
+<option>Silver</option>
+<option>Space Gray</option>
+</select>
+</label>
+
+<button>Add to Cart</button>
+</form>
+</article>
+
+</section>
+
+<!-- ================= REVIEWS ================= -->
+<section class="reviews" id="reviews">
+
+<h2>Customer Reviews</h2>
+
+<article class="review">
+<header>
+<strong>John D.</strong>
+<span>★★★★★</span>
+<time datetime="2024-01-15">Jan 15, 2024</time>
+</header>
+
+<blockquote>
+<p>Excellent laptop! Battery life and performance are amazing.</p>
+</blockquote>
+
+<footer>
+<span>Verified Purchase</span>
+<button>Helpful (24)</button>
+</footer>
+</article>
+
+<form class="review-form">
+<h3>Write a Review</h3>
+
+<fieldset>
+<legend>Your Rating</legend>
+<label><input type="radio" name="rating" required> ★★★★★</label>
+<label><input type="radio" name="rating"> ★★★★☆</label>
+<label><input type="radio" name="rating"> ★★★☆☆</label>
+</fieldset>
+
+<div class="form-group">
+<label>Review Title
+<input type="text" required maxlength="100">
+</label>
+</div>
+
+<div class="form-group">
+<label>Your Review
+<textarea rows="5" required minlength="50"></textarea>
+</label>
+</div>
+
+<label>
+<input type="checkbox"> I recommend this product
+</label>
+
+<button type="submit">Submit Review</button>
+</form>
+
+</section>
+
+</main>
+
+<footer>
+<p>&copy; 2024 Laptop Store</p>
+</footer>
+
+</body>
+</html>
