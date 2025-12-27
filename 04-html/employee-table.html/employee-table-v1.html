@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMPLOYEE DIRECTORY</title>
+    <link rel="stylesheet" href="../CSS/employee-table-v2.css">
+</head>
+<body>
+    <style>
+      table{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-collapse: collapse; 
+      }
+      th,td{
+        border: 2px solid black;
+        padding: 10px;
+        text-align: center;
+      }
+     h3{
+        text-align: center;
+     }
+     tr:hover{background-color: blanchedalmond; transition: 0.5s;}
+
+    </style>
+    <table>
+        <h3>Company Employee Directory - 2024</h3>
+        <tr>
+            <th>ID</th>
+            <th>Photo</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Position</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Date</th>
+        </tr>
+        <tr>
+            <td>EM001</td>
+            <td><img src="../assets/profile image.webp" alt="profile" width="50px "></td>
+            <td>Sam</td>
+            <td>Engineering</td>
+            <td>Manager</td>
+            <td><a href="mailto:jsam123@gmail.com">sam123@gmail.com</a></td>
+            <td><a href="Phone:1234567890">1234567890</a></td>
+            <td><time datetime="2025-12-18">December 18, 2025</time></td>
+        </tr>
+        <tr>
+            <td>EM002</td>
+            <td><img src="../assets/profile image.webp" alt="profile" width="50px "></td>
+            <td>Joe</td>
+            <td>Finance</td>
+            <td>Asst-Manager</td>
+            <td><a href="mailto:joe123@gmail.com">joe123@gmail.com</a></td>
+            <td><a href="Phone:1234567890">1234567890</a></td>
+            <td><time datetime="2025-12-18">December 18, 2025</time></td>
+        </tr>
+        <tr>
+            <td colspan="8">Total Employees: 2 | Engineering: 1 | Finance: 2</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
