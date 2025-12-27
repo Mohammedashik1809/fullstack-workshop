@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Gourmet Kitchen - Menu</title>
+  <meta name="description" content="View our delicious menu featuring appetizers, main courses, desserts, and beverages.">
+</head>
+
+<body>
+
+<header>
+  <h1>The Gourmet Kitchen</h1>
+  <p>Fine Dining Since 1985</p>
+  <nav>
+    <ul>
+      <li><a href="#appetizers">Appetizers</a></li>
+      <li><a href="#mains">Main Courses</a></li>
+      <li><a href="#desserts">Desserts</a></li>
+      <li><a href="#beverages">Beverages</a></li>
+      <li><a href="#reservations">Reservations</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+<!-- ================= APPETIZERS ================= -->
+<section id="appetizers" aria-labelledby="appetizers-heading">
+  <h2 id="appetizers-heading">Appetizers</h2>
+
+  <article class="menu-item">
+    <figure>
+      <img src="https://picsum.photos/200/150?1"
+           alt="Fresh tomato bruschetta on toasted bread"
+           width="200" height="150" loading="lazy">
+    </figure>
+
+    <div class="item-details">
+      <h3>Classic Bruschetta</h3>
+      <p class="description">Fresh tomatoes, basil, garlic, and olive oil on toasted ciabatta bread</p>
+      <p class="price">$12.99</p>
+      <ul class="dietary-info">
+        <li><abbr title="Vegetarian">V</abbr></li>
+        <li><abbr title="Contains Gluten">G</abbr></li>
+      </ul>
+    </div>
+  </article>
+</section>
+
+<!-- ================= MAIN COURSES ================= -->
+<section id="mains">
+  <h2>Main Courses</h2>
+
+  <article class="menu-item">
+    <h3>Grilled Atlantic Salmon</h3>
+    <p>Served with lemon butter sauce and seasonal vegetables</p>
+    <p class="price">$28.99</p>
+    <ul class="dietary-info">
+      <li><abbr title="Gluten-Free">GF</abbr></li>
+    </ul>
+  </article>
+
+  <article class="menu-item">
+    <h3>Filet Mignon</h3>
+    <p>8oz beef tenderloin with red wine reduction</p>
+    <p class="price">$36.99</p>
+  </article>
+
+  <article class="menu-item">
+    <h3>Mushroom Risotto <abbr title="Vegetarian">V</abbr></h3>
+    <p>Creamy Arborio rice with wild mushrooms and parmesan</p>
+    <p class="price">$22.99</p>
+  </article>
+
+  <article class="menu-item">
+    <h3>Chicken Alfredo</h3>
+    <p>Grilled chicken with creamy alfredo pasta</p>
+    <p class="price">$24.99</p>
+  </article>
+
+  <article class="menu-item">
+    <h3>Vegetable Stir Fry <abbr title="Vegan">VG</abbr></h3>
+    <p>Seasonal vegetables with soy-ginger glaze</p>
+    <p class="price">$20.99</p>
+  </article>
+
+  <article class="menu-item">
+    <h3>Lamb Chops</h3>
+    <p>Herb-crusted lamb with rosemary jus</p>
+    <p class="price">$34.99</p>
+  </article>
+</section>
+
+<!-- ================= DESSERTS ================= -->
+<section id="desserts">
+  <h2>Desserts</h2>
+
+  <ul>
+    <li>Chocolate Lava Cake - $9.99</li>
+    <li>Crème Brûlée - $8.99</li>
+    <li>Cheesecake - $8.49</li>
+    <li>Fresh Fruit Sorbet <abbr title="Vegan">VG</abbr> - $7.99</li>
+  </ul>
+</section>
+
+<!-- ================= BEVERAGES ================= -->
+<section id="beverages" aria-labelledby="beverages-heading">
+  <h2 id="beverages-heading">Beverages</h2>
+
+  <h3>Hot Drinks</h3>
+  <dl class="beverage-list">
+    <dt>Espresso</dt>
+    <dd>Single shot - $3.50</dd>
+    <dd>Double shot - $4.50</dd>
+
+    <dt>Cappuccino</dt>
+    <dd>Classic Italian style - $5.00</dd>
+
+    <dt>Latte</dt>
+    <dd>Espresso with steamed milk - $5.50</dd>
+  </dl>
+
+  <h3>Wine List</h3>
+  <table class="wine-table">
+    <caption>House Wine Selection</caption>
+    <thead>
+      <tr>
+        <th scope="col">Wine</th>
+        <th scope="col">Region</th>
+        <th scope="col">Glass</th>
+        <th scope="col">Bottle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Chardonnay</th>
+        <td>Napa Valley</td>
+        <td>$12</td>
+        <td>$48</td>
+      </tr>
+      <tr>
+        <th scope="row">Pinot Noir</th>
+        <td>Sonoma</td>
+        <td>$14</td>
+        <td>$56</td>
+      </tr>
+      <tr>
+        <th scope="row">Cabernet Sauvignon</th>
+        <td>Bordeaux</td>
+        <td>$15</td>
+        <td>$60</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ================= CHEF SPECIALS ================= -->
+<aside class="chef-specials">
+  <h2>Chef's Specials</h2>
+  <p><em>Available for a limited time</em></p>
+
+  <article>
+    <h3>Pan-Seared Duck Breast</h3>
+    <p>With cherry reduction and truffle mashed potatoes</p>
+    <p class="price"><strong>$38.99</strong></p>
+  </article>
+</aside>
+
+<!-- ================= DIETARY LEGEND ================= -->
+<aside class="dietary-legend">
+  <h2>Dietary Information</h2>
+  <dl>
+    <dt><abbr title="Vegetarian">V</abbr></dt><dd>Vegetarian</dd>
+    <dt><abbr title="Vegan">VG</abbr></dt><dd>Vegan</dd>
+    <dt><abbr title="Gluten-Free">GF</abbr></dt><dd>Gluten-Free</dd>
+    <dt><abbr title="Spicy">🌶️</abbr></dt><dd>Spicy</dd>
+  </dl>
+</aside>
+
+<!-- ================= RESERVATION FORM ================= -->
+<section id="reservations">
+  <h2>Make a Reservation</h2>
+
+  <form>
+    <fieldset>
+      <legend>Reservation Details</legend>
+
+      <label>Name *
+        <input type="text" required>
+      </label>
+
+      <label>Email *
+        <input type="email" required>
+      </label>
+
+      <label>Date *
+        <input type="date" required>
+      </label>
+
+      <label>Guests *
+        <input type="number" min="1" max="20" required>
+      </label>
+
+      <label>Special Requests
+        <textarea rows="3"></textarea>
+      </label>
+    </fieldset>
+
+    <button type="submit">Request Reservation</button>
+  </form>
+</section>
+
+</main>
+
+<footer>
+  <section>
+    <h2>Contact Us</h2>
+    <address>
+      <strong>The Gourmet Kitchen</strong><br>
+      123 Culinary Street<br>
+      Food City, FC 12345<br>
+      <a href="tel:+1234567890">(123) 456-7890</a><br>
+      <a href="mailto:info@gourmetkitchen.com">info@gourmetkitchen.com</a>
+    </address>
+  </section>
+
+  <p><small>&copy; 2024 The Gourmet Kitchen. All rights reserved.</small></p>
+</footer>
+
+</body>
+</html>

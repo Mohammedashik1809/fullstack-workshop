@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Indian Kitchen - Menu</title>
+  <meta name="description" content="View our delicious menu featuring appetizers, main courses, desserts, and beverages.">
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+</head>
+
+<body class="bg-light">
+
+<!-- ================= HEADER / NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">The Indian Kitchen</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menuNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#appetizers">Appetizers</a></li>
+        <li class="nav-item"><a class="nav-link" href="#mains">Main Courses</a></li>
+        <li class="nav-item"><a class="nav-link" href="#desserts">Desserts</a></li>
+        <li class="nav-item"><a class="nav-link" href="#beverages">Beverages</a></li>
+        <li class="nav-item"><a class="nav-link" href="#reservations">Reservations</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="text-center py-5 bg-white">
+  <h1 class="display-5 fw-bold">The Indian Kitchen</h1>
+  <p class="fst-italic text-muted">Fine Dining Since 1985</p>
+</header>
+
+<main class="container my-5">
+
+<!-- ================= APPETIZERS ================= -->
+<section id="appetizers" class="mb-5">
+  <h2 class="border-bottom pb-2 mb-4">Appetizers</h2>
+
+  <div class="card mb-3">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="https://picsum.photos/300/200?food1"
+             class="img-fluid rounded-start"
+             alt="Fresh tomato bruschetta">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Classic Bruschetta</h5>
+          <p class="card-text">
+            Fresh tomatoes, basil, garlic, and olive oil on toasted ciabatta bread
+          </p>
+          <span class="badge bg-success">V</span>
+          <span class="badge bg-warning text-dark">G</span>
+          <p class="fw-bold text-danger mt-2">$12.99</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MAIN COURSES ================= -->
+<section id="mains" class="mb-5">
+  <h2 class="border-bottom pb-2 mb-4">Main Courses</h2>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Grilled Atlantic Salmon</h5>
+          <p class="card-text">Served with lemon butter sauce</p>
+          <span class="badge bg-info">GF</span>
+          <p class="fw-bold mt-2">$28.99</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Filet Mignon</h5>
+          <p class="card-text">8oz beef tenderloin with red wine reduction</p>
+          <p class="fw-bold mt-2">$36.99</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Mushroom Risotto</h5>
+          <span class="badge bg-success">V</span>
+          <p class="fw-bold mt-2">$22.99</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DESSERTS ================= -->
+<section id="desserts" class="mb-5">
+  <h2 class="border-bottom pb-2 mb-4">Desserts</h2>
+
+  <ul class="list-group">
+    <li class="list-group-item">Chocolate Lava Cake – $9.99</li>
+    <li class="list-group-item">Crème Brûlée – $8.99</li>
+    <li class="list-group-item">Cheesecake – $8.49</li>
+    <li class="list-group-item">
+      Fresh Fruit Sorbet <span class="badge bg-success">VG</span> – $7.99
+    </li>
+  </ul>
+</section>
+
+<!-- ================= BEVERAGES ================= -->
+<section id="beverages" class="mb-5">
+  <h2 class="border-bottom pb-2 mb-4">Beverages</h2>
+
+  <h5>Hot Drinks</h5>
+  <dl class="row">
+    <dt class="col-sm-3">Espresso</dt>
+    <dd class="col-sm-9">Single $3.50 | Double $4.50</dd>
+
+    <dt class="col-sm-3">Cappuccino</dt>
+    <dd class="col-sm-9">$5.00</dd>
+
+    <dt class="col-sm-3">Latte</dt>
+    <dd class="col-sm-9">$5.50</dd>
+  </dl>
+
+  <h5 class="mt-4">Wine List</h5>
+  <div class="table-responsive">
+    <table class="table table-bordered table-striped text-center">
+      <caption class="caption-top">House Wine Selection</caption>
+      <thead class="table-dark">
+        <tr>
+          <th>Wine</th>
+          <th>Region</th>
+          <th>Glass</th>
+          <th>Bottle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Chardonnay</th>
+          <td>Napa Valley</td>
+          <td>$12</td>
+          <td>$48</td>
+        </tr>
+        <tr>
+          <th scope="row">Pinot Noir</th>
+          <td>Sonoma</td>
+          <td>$14</td>
+          <td>$56</td>
+        </tr>
+        <tr>
+          <th scope="row">Cabernet Sauvignon</th>
+          <td>Bordeaux</td>
+          <td>$15</td>
+          <td>$60</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ================= RESERVATION FORM ================= -->
+<section id="reservations" class="mb-5">
+  <h2 class="border-bottom pb-2 mb-4">Make a Reservation</h2>
+
+  <form class="card p-4">
+    <div class="mb-3">
+      <label class="form-label">Name *</label>
+      <input type="text" class="form-control" required>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Email *</label>
+      <input type="email" class="form-control" required>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Date *</label>
+      <input type="date" class="form-control" required>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Guests *</label>
+      <input type="number" class="form-control" min="1" max="20" required>
+    </div>
+
+    <button class="btn btn-danger">Request Reservation</button>
+  </form>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-dark text-white text-center py-4">
+  <p class="mb-1 fw-bold">The Indian Kitchen</p>
+  <p class="mb-0">&copy; 2024 The Indian Kitchen. All rights reserved.</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
