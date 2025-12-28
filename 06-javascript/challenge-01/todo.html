@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Categorized Todo List</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+    }
+
+    .todo-container {
+      background: #fff;
+      width: 420px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .add-task {
+      display: flex;
+      gap: 5px;
+      margin-bottom: 10px;
+    }
+
+    input[type="text"], select {
+      flex: 1;
+      padding: 8px;
+    }
+
+    button {
+      padding: 8px 12px;
+      cursor: pointer;
+    }
+
+    .filters {
+      display: flex;
+      gap: 5px;
+      margin: 10px 0;
+    }
+
+    .filters button {
+      flex: 1;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 6px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    li.completed span.task-text {
+      text-decoration: line-through;
+      color: gray;
+    }
+
+    .task-left {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .category {
+      font-size: 12px;
+      background: #e0e0e0;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    .delete {
+      color: red;
+      cursor: pointer;
+      display: none;
+    }
+
+    li:hover .delete {
+      display: inline;
+    }
+
+    .counts {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="todo-container">
+  <h2>Todo List</h2>
+
+  <!-- Add Task -->
+  <div class="add-task">
+    <input type="text" id="taskInput" placeholder="Add task">
+    <select id="categorySelect">
+      <option value="Work">Work</option>
+      <option value="Personal">Personal</option>
+    </select>
+    <button onclick="addTask()">Add</button>
+  </div>
+
+  <!-- Filters -->
+  <div class="filters">
+    <button onclick="filterTasks('All')">All</button>
+    <button onclick="filterTasks('Work')">Work</button>
+    <button onclick="filterTasks('Personal')">Personal</button>
+  </div>
+
+  <!-- Task List -->
+  <ul id="taskList"></ul>
+
+  <!-- Counts -->
+  <div class="counts" id="counts"></div>
+</div>
+
+<script src="todo.js"></script>
+</body>
+</html>

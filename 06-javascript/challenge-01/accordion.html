@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Accordion Component</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background: #f8f9fa;
+    }
+
+    .accordion {
+      max-width: 600px;
+      margin: auto;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      background: #fff;
+      overflow: hidden;
+    }
+
+    .accordion-item {
+      border-bottom: 1px solid #ddd;
+    }
+
+    .accordion-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      cursor: pointer;
+      background: #f1f1f1;
+      font-weight: bold;
+    }
+
+    .accordion-header:hover {
+      background: #e9ecef;
+    }
+
+    .accordion-arrow {
+      transition: transform 0.3s ease;
+    }
+
+    .accordion-item.active .accordion-arrow {
+      transform: rotate(90deg);
+    }
+
+    .accordion-content {
+      height: 0;
+      overflow: hidden;
+      transition: height 0.3s ease;
+      padding: 0 15px;
+    }
+
+    .accordion-content p {
+      margin: 15px 0;
+    }
+
+    .accordion-item.active .accordion-content {
+      padding-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<h2 style="text-align:center;">Accordion Component</h2>
+
+<div id="accordion" class="accordion"></div>
+
+<script src="accordion.js"></script>
+</body>
+</html>

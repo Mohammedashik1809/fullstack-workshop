@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tab Component</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      padding: 40px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .tabs-container {
+      width: 400px;
+      background: #fff;
+      border-radius: 6px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .tabs {
+      display: flex;
+      border-bottom: 2px solid #ddd;
+    }
+
+    .tab {
+      flex: 1;
+      padding: 12px;
+      text-align: center;
+      cursor: pointer;
+      border: none;
+      background: none;
+      font-size: 16px;
+    }
+
+    .tab:focus {
+      outline: 2px solid #007bff;
+    }
+
+    .tab.active {
+      border-bottom: 3px solid #007bff;
+      font-weight: bold;
+      color: #007bff;
+    }
+
+    .tab-content {
+      padding: 20px;
+      min-height: 100px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="tabs-container">
+  <div class="tabs" id="tabs" role="tablist"></div>
+  <div class="tab-content" id="tabContent"></div>
+</div>
+
+<script src="tabs.js"></script>
+</body>
+</html>
