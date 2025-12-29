@@ -1,13 +1,20 @@
 # Review: 04-html
 
 **Exercise:** Exercise
-**Review Date:** 2025-12-29 10:59
+**Review Date:** 2025-12-29 11:28
 
 ---
 
 ## Status: ✅ Submitted
 
 **Files submitted:** 19
+
+### Required Files
+
+- ✅ Found: `portfolio-v1.html`
+- ✅ Found: `portfolio-v2.html`
+- ❌ Missing: `portfolio-v2.css`
+- ✅ Found: `portfolio-v3.html`
 
 ### Code Review
 
@@ -20,6 +27,8 @@
     - ✅ Images have `alt` attributes
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
+    - 📌 **Version 1 (Raw HTML)**
+    - ⚠️ V1 should be raw HTML only (no CSS/Bootstrap)
 
    **Score: 4/5**
 
@@ -32,6 +41,8 @@
     - ✅ Images have `alt` attributes
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
+    - 📌 **Version 2 (HTML + CSS3)**
+    - ❌ Missing CSS stylesheet link
 
    **Score: 4/5**
 
@@ -44,6 +55,9 @@
     - ❌ Images missing `alt` attributes
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
+    - 📌 **Version 3 (Bootstrap)**
+    - ✅ Uses Bootstrap framework
+    - ✅ Uses Bootstrap classes
 
    **Score: 4/5**
 
@@ -56,6 +70,8 @@
     - ❌ Images missing `alt` attributes
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
+    - 📌 **Version 1 (Raw HTML)**
+    - ✅ Pure semantic HTML (no styling)
 
    **Score: 4/5**
 
@@ -68,6 +84,8 @@
     - ❌ Images missing `alt` attributes
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
+    - 📌 **Version 2 (HTML + CSS3)**
+    - ✅ Links to CSS stylesheet
 
    **Score: 4/5**
 
@@ -80,6 +98,9 @@
     - ✅ Images have `alt` attributes
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
+    - 📌 **Version 3 (Bootstrap)**
+    - ✅ Uses Bootstrap framework
+    - ✅ Uses Bootstrap classes
 
    **Score: 4/5**
 
@@ -92,6 +113,8 @@
     - ✅ Images have `alt` attributes
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
+    - 📌 **Version 1 (Raw HTML)**
+    - ⚠️ V1 should be raw HTML only (no CSS/Bootstrap)
 
    **Score: 5/5**
 
@@ -104,6 +127,8 @@
     - ✅ Images have `alt` attributes
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
+    - 📌 **Version 2 (HTML + CSS3)**
+    - ✅ Links to CSS stylesheet
 
    **Score: 5/5**
 
@@ -116,6 +141,9 @@
     - ❌ Images missing `alt` attributes
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
+    - 📌 **Version 3 (Bootstrap)**
+    - ✅ Uses Bootstrap framework
+    - ✅ Uses Bootstrap classes
 
    **Score: 4/5**
 
@@ -128,6 +156,8 @@
     - ✅ Images have `alt` attributes
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
+    - 📌 **Version 1 (Raw HTML)**
+    - ✅ Pure semantic HTML (no styling)
 
    **Score: 5/5**
 
@@ -140,6 +170,8 @@
     - ✅ Images have `alt` attributes
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
+    - 📌 **Version 2 (HTML + CSS3)**
+    - ✅ Links to CSS stylesheet
 
    **Score: 5/5**
 
@@ -152,6 +184,9 @@
     - ✅ Images have `alt` attributes
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
+    - 📌 **Version 3 (Bootstrap)**
+    - ✅ Uses Bootstrap framework
+    - ✅ Uses Bootstrap classes
 
    **Score: 5/5**
 
@@ -164,6 +199,8 @@
     - ❌ Images missing `alt` attributes
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
+    - 📌 **Version 1 (Raw HTML)**
+    - ✅ Pure semantic HTML (no styling)
 
    **Score: 4/5**
 
@@ -176,6 +213,8 @@
     - ❌ Images missing `alt` attributes
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
+    - 📌 **Version 2 (HTML + CSS3)**
+    - ✅ Links to CSS stylesheet
 
    **Score: 4/5**
 
@@ -188,6 +227,9 @@
     - ❌ Images missing `alt` attributes
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
+    - 📌 **Version 3 (Bootstrap)**
+    - ✅ Uses Bootstrap framework
+    - ✅ Uses Bootstrap classes
 
    **Score: 4/5**
 
@@ -199,6 +241,8 @@
     - 💡 Consider using semantic tags (header, nav, main, etc.)
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
+    - 📌 **Version 1 (Raw HTML)**
+    - ⚠️ V1 should be raw HTML only (no CSS/Bootstrap)
 
    **Score: 4/5**
 
@@ -210,6 +254,8 @@
     - 💡 Consider using semantic tags (header, nav, main, etc.)
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
+    - 📌 **Version 2 (HTML + CSS3)**
+    - ✅ Links to CSS stylesheet
 
    **Score: 4/5**
 
@@ -221,6 +267,9 @@
     - 💡 Consider using semantic tags (header, nav, main, etc.)
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
+    - 📌 **Version 3 (Bootstrap)**
+    - ✅ Uses Bootstrap framework
+    - ✅ Uses Bootstrap classes
 
    **Score: 4/5**
 
