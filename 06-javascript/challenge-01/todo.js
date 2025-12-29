@@ -4,7 +4,7 @@ let currentFilter = "All";
 const taskList = document.getElementById("taskList");
 const counts = document.getElementById("counts");
 
-// Add Task
+
 function addTask() {
   const text = document.getElementById("taskInput").value.trim();
   const category = document.getElementById("categorySelect").value;
@@ -22,7 +22,7 @@ function addTask() {
   saveAndRender();
 }
 
-// Toggle Complete
+
 function toggleTask(id) {
   tasks = tasks.map(task =>
     task.id === id ? { ...task, completed: !task.completed } : task
@@ -30,25 +30,25 @@ function toggleTask(id) {
   saveAndRender();
 }
 
-// Delete Task
+
 function deleteTask(id) {
   tasks = tasks.filter(task => task.id !== id);
   saveAndRender();
 }
 
-// Filter Tasks
+
 function filterTasks(category) {
   currentFilter = category;
   renderTasks();
 }
 
-// Save + Render
+
 function saveAndRender() {
   localStorage.setItem("tasks", JSON.stringify(tasks));
   renderTasks();
 }
 
-// Render Tasks
+
 function renderTasks() {
   taskList.innerHTML = "";
 
@@ -77,7 +77,7 @@ function renderTasks() {
   updateCounts();
 }
 
-// Show Task Counts
+
 function updateCounts() {
   const work = tasks.filter(t => t.category === "Work").length;
   const personal = tasks.filter(t => t.category === "Personal").length;
@@ -85,5 +85,5 @@ function updateCounts() {
   counts.textContent = `Work: ${work} | Personal: ${personal} | Total: ${tasks.length}`;
 }
 
-// Initial render
+
 renderTasks();
