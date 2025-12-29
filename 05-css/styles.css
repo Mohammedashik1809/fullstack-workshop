@@ -1,4 +1,4 @@
-/* ================= CSS VARIABLES ================= */
+
 :root {
   --primary-color: #0d6efd;
   --sale-color: #dc3545;
@@ -8,7 +8,7 @@
   --shadow: 0 8px 20px rgba(0,0,0,0.12);
 }
 
-/* ================= GLOBAL ================= */
+
 * {
   box-sizing: border-box;
 }
@@ -20,7 +20,7 @@ body {
   background: #f4f6f8;
 }
 
-/* ================= GRID LAYOUT ================= */
+
 .card-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -29,7 +29,7 @@ body {
   margin: auto;
 }
 
-/* ================= CARD ================= */
+
 .card {
   max-width: 350px;
   background: var(--bg-light);
@@ -44,7 +44,7 @@ body {
   box-shadow: 0 12px 30px rgba(0,0,0,0.18);
 }
 
-/* ================= IMAGE ================= */
+
 .image-wrapper {
   position: relative;
   aspect-ratio: 16 / 9;
@@ -62,7 +62,7 @@ body {
   transform: scale(1.1);
 }
 
-/* ================= BADGE ================= */
+
 .card-badge {
   position: absolute;
   top: 12px;
@@ -75,7 +75,7 @@ body {
   font-weight: bold;
 }
 
-/* ================= CONTENT ================= */
+
 .card-content {
   padding: 16px;
   display: flex;
@@ -102,7 +102,7 @@ body {
   overflow: hidden;
 }
 
-/* ================= PRICE ================= */
+
 .card-price {
   display: flex;
   align-items: center;
@@ -121,7 +121,7 @@ body {
   font-weight: bold;
 }
 
-/* ================= BUTTON ================= */
+
 .card-button {
   margin-top: auto;
   width: 100%;
@@ -145,7 +145,7 @@ body {
   transform: scale(0.97);
 }
 
-/* ================= RESPONSIVE ================= */
+
 @media (max-width: 992px) {
   .card-grid {
     grid-template-columns: repeat(2, 1fr);
