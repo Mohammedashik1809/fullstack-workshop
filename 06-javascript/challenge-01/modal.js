@@ -43,7 +43,7 @@ function createModal({ title, content, buttons }) {
     setTimeout(() => overlay.remove(), 300);
   }
 
-  // Close actions
+  
   overlay.addEventListener("click", e => {
     if (e.target === overlay) close();
   });
@@ -60,7 +60,7 @@ function createModal({ title, content, buttons }) {
   return { open, close };
 }
 
-/* ---------- Example Usage ---------- */
+
 
 document.getElementById("openModalBtn").addEventListener("click", () => {
   const modal = createModal({
