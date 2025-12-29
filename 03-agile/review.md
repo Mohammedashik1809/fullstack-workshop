@@ -1,7 +1,7 @@
 # Review: 03-agile
 
 **Exercise:**  Exercise: Sprint Planning Simulation
-**Review Date:** 2025-12-29 11:39
+**Review Date:** 2025-12-29 13:15
 
 ---
 

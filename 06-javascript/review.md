@@ -1,13 +1,13 @@
 # Review: 06-javascript
 
 **Exercise:** Exercise
-**Review Date:** 2025-12-29 11:39
+**Review Date:** 2025-12-29 13:15
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 17
+**Files submitted:** 27
 
 ### Code Review
 
@@ -168,6 +168,67 @@
 
    **Score: 5/5**
 
+📄 **event-emitter.js**
+   Path: `06-javascript/challenge-02/event-emitter.js`
+   Lines: 0
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - 💡 Consider using arrow functions
+
+   **Score: 2/5**
+
+📄 **library.js**
+   Path: `06-javascript/challenge-02/library.js`
+   Lines: 0
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - 💡 Consider using arrow functions
+
+   **Score: 2/5**
+
+📄 **shopping-cart.js**
+   Path: `06-javascript/challenge-02/shopping-cart.js`
+   Lines: 90
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - ✅ Uses arrow functions
+    - ✅ Uses modern array methods
+
+   **Score: 4/5**
+
+📄 **deep-clone.js**
+   Path: `06-javascript/challenge-03/deep-clone.js`
+   Lines: 0
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - 💡 Consider using arrow functions
+
+   **Score: 2/5**
+
+📄 **type-checker.js**
+   Path: `06-javascript/challenge-03/type-checker.js`
+   Lines: 0
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - 💡 Consider using arrow functions
+
+   **Score: 2/5**
+
+📄 **validate-password.js**
+   Path: `06-javascript/challenge-03/validate-password.js`
+   Lines: 0
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - 💡 Consider using arrow functions
+
+   **Score: 2/5**
+
 📄 **madlipgame.html**
    Path: `06-javascript/madlipgame.html`
    Lines: 10
@@ -190,7 +251,49 @@
 
    **Score: 3/5**
 
-### Topic Score: 65 / 80 (81%)
+📄 **quiz.html**
+   Path: `06-javascript/quiz.html`
+   Lines: 10
+
+    - ✅ Has `<!DOCTYPE html>`
+    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 4/5**
+
+📄 **quiz.js**
+   Path: `06-javascript/quiz.js`
+   Lines: 20
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ❌ Uses loose equality (`==`) 2 times
+    - 💡 Consider using arrow functions
+
+   **Score: 1/5**
+
+📄 **temperature.html**
+   Path: `06-javascript/temperature.html`
+   Lines: 10
+
+    - ✅ Has `<!DOCTYPE html>`
+    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 4/5**
+
+📄 **temperature.js**
+   Path: `06-javascript/temperature.js`
+   Lines: 20
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - 💡 Consider using arrow functions
+
+   **Score: 2/5**
+
+### Topic Score: 90 / 130 (69%)
 
 ---
 
