@@ -1,0 +1,231 @@
+# Review: 04-html
+
+**Exercise:** Exercise
+**Review Date:** 2025-12-29 10:56
+
+---
+
+## Status: ✅ Submitted
+
+**Files submitted:** 19
+
+### Code Review
+
+📄 **employee-table-v1.html**
+   Path: `04-html/employee-table.html/employee-table-v1.html`
+   Lines: 67
+
+    - ✅ Has `<!DOCTYPE html>`
+    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Images have `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 4/5**
+
+📄 **employee-table-v2.html**
+   Path: `04-html/employee-table.html/employee-table-v2.html`
+   Lines: 63
+
+    - ✅ Has `<!DOCTYPE html>`
+    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Images have `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 4/5**
+
+📄 **employee-table-v3.html**
+   Path: `04-html/employee-table.html/employee-table-v3.html`
+   Lines: 121
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ❌ Images missing `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 4/5**
+
+📄 **media-gallery-v1.html**
+   Path: `04-html/media-gallery.html/media-gallery-v1.html`
+   Lines: 195
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ❌ Images missing `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 4/5**
+
+📄 **media-gallery-v2.html**
+   Path: `04-html/media-gallery.html/media-gallery-v2.html`
+   Lines: 197
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ❌ Images missing `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 4/5**
+
+📄 **media-gallery-v3.html**
+   Path: `04-html/media-gallery.html/media-gallery-v3.html`
+   Lines: 191
+
+    - ✅ Has `<!DOCTYPE html>`
+    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Images have `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 4/5**
+
+📄 **portfolio-v1.html**
+   Path: `04-html/portfolio.html/portfolio-v1.html`
+   Lines: 104
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ✅ Images have `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 5/5**
+
+📄 **portfolio-v2.html**
+   Path: `04-html/portfolio.html/portfolio-v2.html`
+   Lines: 129
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ✅ Images have `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 5/5**
+
+📄 **portfolio-v3.html**
+   Path: `04-html/portfolio.html/portfolio-v3.html`
+   Lines: 181
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ❌ Images missing `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 4/5**
+
+📄 **product-comparison-v1.html**
+   Path: `04-html/product-comparison.html/product-comparison-v1.html`
+   Lines: 236
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ✅ Images have `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 5/5**
+
+📄 **product-comparison-v2.html**
+   Path: `04-html/product-comparison.html/product-comparison-v2.html`
+   Lines: 237
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ✅ Images have `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 5/5**
+
+📄 **product-comparison-v3.html**
+   Path: `04-html/product-comparison.html/product-comparison-v3.html`
+   Lines: 194
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ✅ Images have `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 5/5**
+
+📄 **restaurant-menu-v1.html**
+   Path: `04-html/restaurant-menu.html/restaurant-menu-v1.html`
+   Lines: 232
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ❌ Images missing `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 4/5**
+
+📄 **restaurant-menu-v2.html**
+   Path: `04-html/restaurant-menu.html/restaurant-menu-v2.html`
+   Lines: 233
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ❌ Images missing `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 4/5**
+
+📄 **restaurant-menu-v3.html**
+   Path: `04-html/restaurant-menu.html/restaurant-menu-v3.html`
+   Lines: 216
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ❌ Images missing `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 4/5**
+
+📄 **survey-form-v1.html**
+   Path: `04-html/survey-form.html/survey-form-v1.html`
+   Lines: 272
+
+    - ✅ Has `<!DOCTYPE html>`
+    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 4/5**
+
+📄 **survey-form-v2.html**
+   Path: `04-html/survey-form.html/survey-form-v2.html`
+   Lines: 271
+
+    - ✅ Has `<!DOCTYPE html>`
+    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 4/5**
+
+📄 **survey-form-v3.html**
+   Path: `04-html/survey-form.html/survey-form-v3.html`
+   Lines: 182
+
+    - ✅ Has `<!DOCTYPE html>`
+    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 4/5**
+
+### Topic Score: 77 / 90 (85%)
+
+---
+
+*Generated by Learner Review Tool v2.0*
