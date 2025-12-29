@@ -9,7 +9,7 @@ const contentContainer = document.getElementById("tabContent");
 
 let activeIndex = 0;
 
-// Create tabs dynamically
+
 tabsData.forEach((tab, index) => {
   const button = document.createElement("button");
   button.className = "tab";
@@ -23,7 +23,7 @@ tabsData.forEach((tab, index) => {
   tabsContainer.appendChild(button);
 });
 
-// Activate tab
+
 function activateTab(index) {
   const tabs = document.querySelectorAll(".tab");
 
@@ -36,7 +36,7 @@ function activateTab(index) {
   activeIndex = index;
 }
 
-// Keyboard navigation
+
 function handleKeyNavigation(event, index) {
   let newIndex = index;
 
@@ -54,5 +54,5 @@ function handleKeyNavigation(event, index) {
   }
 }
 
-// Initial tab
+
 activateTab(0);
