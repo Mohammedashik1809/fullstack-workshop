@@ -18,7 +18,7 @@ const nextBtn = document.getElementById('nextBtn');
 
 let currentIndex = 0;
 
-/* ===== Render Thumbnails ===== */
+
 images.forEach((img, index) => {
   const image = document.createElement('img');
   image.src = img.thumb;
@@ -29,7 +29,7 @@ images.forEach((img, index) => {
   gallery.appendChild(image);
 });
 
-/* ===== Lightbox Functions ===== */
+
 function openLightbox(index) {
   currentIndex = index;
   updateLightbox();
@@ -60,7 +60,7 @@ function showPrev() {
   updateLightbox();
 }
 
-/* ===== Event Listeners ===== */
+
 closeBtn.addEventListener('click', closeLightbox);
 nextBtn.addEventListener('click', showNext);
 prevBtn.addEventListener('click', showPrev);
@@ -69,7 +69,7 @@ lightbox.addEventListener('click', (e) => {
   if (e.target === lightbox) closeLightbox();
 });
 
-/* ===== Keyboard Navigation ===== */
+
 document.addEventListener('keydown', (e) => {
   if (!lightbox.classList.contains('active')) return;
 
