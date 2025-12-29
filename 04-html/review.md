@@ -1,19 +1,19 @@
 # Review: 04-html
 
 **Exercise:** Exercise
-**Review Date:** 2025-12-29 13:58
+**Review Date:** 2025-12-29 15:03
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 19
+**Files submitted:** 25
 
 ### Required Files
 
 - ✅ Found: `portfolio-v1.html`
 - ✅ Found: `portfolio-v2.html`
-- ❌ Missing: `portfolio-v2.css`
+- ✅ Found: `portfolio-v2.css`
 - ✅ Found: `portfolio-v3.html`
 
 ### Code Review
@@ -31,6 +31,12 @@
     - ⚠️ V1 should be raw HTML only (no CSS/Bootstrap)
 
    **Score: 4/5**
+
+📄 **employee-table-v2.css**
+   Path: `04-html/employee-table.html/employee-table-v2.css`
+   Lines: 57
+
+   - ✅ CSS file present
 
 📄 **employee-table-v2.html**
    Path: `04-html/employee-table.html/employee-table-v2.html`
@@ -75,6 +81,12 @@
 
    **Score: 4/5**
 
+📄 **media-gallery-v2.css**
+   Path: `04-html/media-gallery.html/media-gallery-v2.css`
+   Lines: 154
+
+   - ✅ CSS file present
+
 📄 **media-gallery-v2.html**
    Path: `04-html/media-gallery.html/media-gallery-v2.html`
    Lines: 197
@@ -117,6 +129,12 @@
     - ⚠️ V1 should be raw HTML only (no CSS/Bootstrap)
 
    **Score: 5/5**
+
+📄 **portfolio-v2.css**
+   Path: `04-html/portfolio.html/portfolio-v2.css`
+   Lines: 166
+
+   - ✅ CSS file present
 
 📄 **portfolio-v2.html**
    Path: `04-html/portfolio.html/portfolio-v2.html`
@@ -161,6 +179,12 @@
 
    **Score: 5/5**
 
+📄 **product-comparison-v2.css**
+   Path: `04-html/product-comparison.html/product-comparison-v2.css`
+   Lines: 245
+
+   - ✅ CSS file present
+
 📄 **product-comparison-v2.html**
    Path: `04-html/product-comparison.html/product-comparison-v2.html`
    Lines: 237
@@ -204,6 +228,12 @@
 
    **Score: 4/5**
 
+📄 **restaurant-menu-v2.css**
+   Path: `04-html/restaurant-menu.html/restaurant-menu-v2.css`
+   Lines: 272
+
+   - ✅ CSS file present
+
 📄 **restaurant-menu-v2.html**
    Path: `04-html/restaurant-menu.html/restaurant-menu-v2.html`
    Lines: 233
@@ -246,6 +276,12 @@
 
    **Score: 4/5**
 
+📄 **survey-form-v2.css**
+   Path: `04-html/survey-form.html/survey-form-v2.css`
+   Lines: 147
+
+   - ✅ CSS file present
+
 📄 **survey-form-v2.html**
    Path: `04-html/survey-form.html/survey-form-v2.html`
    Lines: 271
@@ -273,7 +309,7 @@
 
    **Score: 4/5**
 
-### Topic Score: 92 / 110 (83%)
+### Topic Score: 97 / 110 (88%)
 
 ---
 
