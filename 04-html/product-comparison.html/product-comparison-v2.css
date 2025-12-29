@@ -1,0 +1,246 @@
+/* ================= RESET ================= */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ================= BODY ================= */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ================= HEADER ================= */
+header {
+  background-color: #1f2937;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ================= MAIN ================= */
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+/* ================= FILTERS ================= */
+.filters {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.filter-group {
+  margin-bottom: 1rem;
+}
+
+.filter-group span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.filter-group label {
+  margin-right: 12px;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-top: 6px;
+}
+
+/* ================= BUTTONS ================= */
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
+
+/* ================= COMPARISON TABLE ================= */
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+caption {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+thead {
+  background-color: #e5e7eb;
+}
+
+th[scope="row"] {
+  background-color: #f9fafb;
+  text-align: left;
+}
+
+tbody tr:hover {
+  background-color: #f1f5f9;
+}
+
+tfoot td button {
+  width: 100%;
+}
+
+/* ================= PRODUCT DETAILS ================= */
+.product-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.product-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  margin-top: 1rem;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #16a34a;
+  margin: 0.5rem 0;
+}
+
+/* ================= DETAILS & SUMMARY ================= */
+details {
+  margin-top: 1rem;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* ================= FORMS ================= */
+form {
+  margin-top: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid #2563eb;
+}
+
+/* ================= REVIEWS ================= */
+.reviews {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.review {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+.review header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+blockquote {
+  margin: 1rem 0;
+  padding-left: 1rem;
+  border-left: 4px solid #2563eb;
+  color: #555;
+}
+
+/* ================= FOOTER ================= */
+footer {
+  background-color: #1f2937;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
