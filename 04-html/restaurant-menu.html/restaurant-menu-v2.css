@@ -1,4 +1,4 @@
-/* ================= ROOT VARIABLES ================= */
+
 :root {
   --primary: #7b1e1e;
   --secondary: #f7f4ef;
@@ -11,14 +11,14 @@
   --body-font: "Arial", sans-serif;
 }
 
-/* ================= RESET ================= */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ================= GLOBAL ================= */
+
 body {
   font-family: var(--body-font);
   background: var(--secondary);
@@ -34,7 +34,7 @@ footer {
   padding: 1.5rem;
 }
 
-/* ================= HEADER ================= */
+
 header {
   text-align: center;
   border-bottom: 4px solid var(--primary);
@@ -69,7 +69,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* ================= SECTION HEADINGS ================= */
+
 section > h2,
 aside > h2 {
   font-family: var(--heading-font);
@@ -80,7 +80,7 @@ aside > h2 {
   padding-bottom: 0.4rem;
 }
 
-/* ================= MENU ITEMS ================= */
+
 .menu-item {
   display: flex;
   gap: 1.5rem;
@@ -109,7 +109,7 @@ aside > h2 {
   margin-top: 0.5rem;
 }
 
-/* ================= DIETARY INFO ================= */
+
 .dietary-info {
   list-style: none;
   display: flex;
@@ -125,7 +125,7 @@ aside > h2 {
   font-size: 0.85rem;
 }
 
-/* ================= DESSERTS ================= */
+
 #desserts ul {
   margin-left: 1.5rem;
 }
@@ -134,7 +134,7 @@ aside > h2 {
   margin-bottom: 0.4rem;
 }
 
-/* ================= BEVERAGES ================= */
+
 .beverage-list {
   margin: 1rem 0 2rem;
 }
@@ -149,7 +149,7 @@ aside > h2 {
   color: #555;
 }
 
-/* ================= WINE TABLE ================= */
+
 .wine-table {
   width: 100%;
   border-collapse: collapse;
@@ -173,7 +173,7 @@ aside > h2 {
   color: #fff;
 }
 
-/* ================= CHEF SPECIALS ================= */
+
 .chef-specials {
   background: #fff4cc;
   padding: 1.5rem;
@@ -182,7 +182,7 @@ aside > h2 {
   border-radius: var(--radius);
 }
 
-/* ================= DIETARY LEGEND ================= */
+
 .dietary-legend {
   background: var(--light);
   padding: 1.5rem;
@@ -194,7 +194,7 @@ aside > h2 {
   font-weight: bold;
 }
 
-/* ================= RESERVATION FORM ================= */
+
 form {
   background: var(--light);
   padding: 1.5rem;
@@ -224,7 +224,7 @@ textarea:focus {
   outline: 2px solid var(--accent);
 }
 
-/* ================= BUTTON ================= */
+
 button {
   background: var(--primary);
   color: #fff;
@@ -239,7 +239,7 @@ button:hover {
   background: #5a1414;
 }
 
-/* ================= FOOTER ================= */
+
 footer {
   background: #222;
   color: #eee;
@@ -259,7 +259,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* ================= RESPONSIVE ================= */
+
 @media (max-width: 768px) {
   .menu-item {
     flex-direction: column;
