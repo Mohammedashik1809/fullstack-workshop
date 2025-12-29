@@ -1,7 +1,7 @@
 # Review: 23-docker
 
 **Exercise:**  Exercise: Docker - Multi-Container Application
-**Review Date:** 2025-12-29 13:24
+**Review Date:** 2025-12-29 13:30
 
 ---
 
@@ -17,6 +17,8 @@
 - ❌ Missing: `.dockerignore`
 
 ### Code Review
+
+### Topic Score: 0 / 20 (0%)
 
 ### Technical Checklist
 

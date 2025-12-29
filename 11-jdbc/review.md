@@ -1,7 +1,7 @@
 # Review: 11-jdbc
 
 **Exercise:**  Exercise: Employee Database Application with JDBC
-**Review Date:** 2025-12-29 13:24
+**Review Date:** 2025-12-29 13:30
 
 ---
 
@@ -14,6 +14,8 @@
 - ❌ Missing: `Main.java`
 
 ### Code Review
+
+### Topic Score: 0 / 5 (0%)
 
 ---
 

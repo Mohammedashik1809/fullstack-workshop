@@ -1,7 +1,7 @@
 # Review: 15-spring-boot
 
 **Exercise:**  Exercise: Build a RESTful API with Spring Boot
-**Review Date:** 2025-12-29 13:24
+**Review Date:** 2025-12-29 13:30
 
 ---
 
@@ -18,6 +18,8 @@
 - ❌ Missing: `application-prod.yml`
 
 ### Code Review
+
+### Topic Score: 0 / 25 (0%)
 
 ---
 

@@ -1,7 +1,7 @@
 # Review: 17-spring-data-jpa
 
 **Exercise:**  Exercise: Spring Data JPA Repository Implementation
-**Review Date:** 2025-12-29 13:24
+**Review Date:** 2025-12-29 13:30
 
 ---
 
@@ -14,6 +14,8 @@
 - ❌ Missing: `BlogService.java`
 
 ### Code Review
+
+### Topic Score: 0 / 5 (0%)
 
 ---
 

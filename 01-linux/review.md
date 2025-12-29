@@ -1,7 +1,7 @@
 # Review: 01-linux
 
 **Exercise:**  Exercise: Log File Analyzer Script
-**Review Date:** 2025-12-29 13:24
+**Review Date:** 2025-12-29 13:30
 
 ---
 
@@ -87,7 +87,7 @@
 
    **Score: 3/5**
 
-### Topic Score: 18 / 30 (60%)
+### Topic Score: 23 / 35 (65%)
 
 ### Technical Checklist
 

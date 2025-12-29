@@ -1,7 +1,7 @@
 # Review: 04-html
 
 **Exercise:** Exercise
-**Review Date:** 2025-12-29 13:24
+**Review Date:** 2025-12-29 13:30
 
 ---
 
@@ -273,7 +273,7 @@
 
    **Score: 4/5**
 
-### Topic Score: 77 / 90 (85%)
+### Topic Score: 92 / 110 (83%)
 
 ---
 
