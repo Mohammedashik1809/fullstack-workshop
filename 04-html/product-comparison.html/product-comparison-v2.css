@@ -1,11 +1,10 @@
-/* ================= RESET ================= */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* ================= BODY ================= */
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f4f6f8;
@@ -13,7 +12,7 @@ body {
   line-height: 1.6;
 }
 
-/* ================= HEADER ================= */
+
 header {
   background-color: #1f2937;
   color: #fff;
@@ -43,14 +42,14 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* ================= MAIN ================= */
+
 main {
   max-width: 1200px;
   margin: auto;
   padding: 2rem 1rem;
 }
 
-/* ================= FILTERS ================= */
+
 .filters {
   background-color: #ffffff;
   padding: 1.5rem;
@@ -77,7 +76,7 @@ input[type="range"] {
   margin-top: 6px;
 }
 
-/* ================= BUTTONS ================= */
+
 button {
   background-color: #2563eb;
   color: white;
@@ -92,7 +91,7 @@ button:hover {
   background-color: #1e40af;
 }
 
-/* ================= COMPARISON TABLE ================= */
+
 .comparison-table {
   width: 100%;
   border-collapse: collapse;
@@ -130,7 +129,7 @@ tfoot td button {
   width: 100%;
 }
 
-/* ================= PRODUCT DETAILS ================= */
+
 .product-details {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -161,7 +160,7 @@ tfoot td button {
   margin: 0.5rem 0;
 }
 
-/* ================= DETAILS & SUMMARY ================= */
+
 details {
   margin-top: 1rem;
 }
@@ -171,7 +170,7 @@ summary {
   font-weight: bold;
 }
 
-/* ================= FORMS ================= */
+
 form {
   margin-top: 1rem;
 }
@@ -196,7 +195,7 @@ textarea:focus {
   outline: 2px solid #2563eb;
 }
 
-/* ================= REVIEWS ================= */
+
 .reviews {
   background-color: #ffffff;
   padding: 2rem;
@@ -222,7 +221,7 @@ blockquote {
   color: #555;
 }
 
-/* ================= FOOTER ================= */
+
 footer {
   background-color: #1f2937;
   color: #fff;
@@ -231,7 +230,7 @@ footer {
   margin-top: 3rem;
 }
 
-/* ================= RESPONSIVE ================= */
+
 @media (max-width: 768px) {
   header {
     flex-direction: column;
