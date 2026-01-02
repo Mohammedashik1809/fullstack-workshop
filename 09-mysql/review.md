@@ -1,13 +1,13 @@
 # Review: 09-mysql
 
 **Exercise:**  Exercise: E-Commerce Database Design and Queries
-**Review Date:** 2025-12-31 10:54
+**Review Date:** 2026-01-02 13:56
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 0
+**Files submitted:** 2
 
 ### Relevance Check
 
@@ -27,9 +27,45 @@ Please complete the correct exercise and resubmit.
 
 ## Challenge
 
-**Status:** ⚠️ Not submitted
+**Status:** ✅ Submitted (2 files)
 
-Submit to: `09-mysql/challenges/`
+### Challenge Relevance Check
+
+⚠️ Submission partially matches exercise requirements
+   Found: employee department salary 
+   Missing: project assignment 
+
+### Challenge Code Review
+
+📄 **department-stats.sql**
+   Lines: 21
+
+    📋 **Challenge 1: Department Stats**
+    Expected: department, employee_count, avg_salary, max_salary
+
+    - ✅ Groups by department
+    - ❌ Missing COUNT(*) for employee count
+    - ✅ Calculates average salary
+    - ✅ Finds maximum salary
+    - ✅ Filters departments with >2 employees (HAVING)
+
+   **Score: 4/5**
+
+📄 **employee-hierarchy.sql**
+   Lines: 5
+
+    📋 **Challenge 2: Employee Hierarchy**
+    Expected: employee_name, manager_name (self-join)
+
+    - ✅ Uses self-join on employees table
+    - ✅ Uses LEFT JOIN (handles employees without managers)
+    - ✅ Joins on manager_id = id
+    - ✅ Uses table aliases
+
+   **Score: 4/4**
+
+### Challenge Score: 8 / 9 (88%)
+
 
 ---
 
