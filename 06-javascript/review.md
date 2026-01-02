@@ -1,7 +1,7 @@
 # Review: 06-javascript
 
 **Exercise:** Exercise
-**Review Date:** 2026-01-02 13:56
+**Review Date:** 2026-01-02 16:48
 
 ---
 
@@ -324,12 +324,13 @@ Unable to check - no exercise file
 
 ## Challenge
 
-**Status:** ✅ Submitted (14 files)
+**Status:** ✅ Submitted (13 files)
 
 ### Challenge Relevance Check
 
-✅ Submission appears relevant to the exercise
-   Found keywords: task todo add delete 
+⚠️ Submission partially matches exercise requirements
+   Found: task add delete 
+   Missing: manager todo 
 
 ### Challenge Code Review
 
@@ -410,7 +411,73 @@ Unable to check - no exercise file
 
    **Score: 5/5**
 
-### Challenge Score: 30 / 35 (85%)
+📄 **event-emitter.js**
+   Lines: 0
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - 💡 Consider using arrow functions
+    - 💡 Consider using template literals for string interpolation
+    - 💡 Consider using array methods (map, filter, reduce)
+
+   **Score: 2/5**
+
+📄 **library.js**
+   Lines: 0
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - 💡 Consider using arrow functions
+    - 💡 Consider using template literals for string interpolation
+    - 💡 Consider using array methods (map, filter, reduce)
+
+   **Score: 2/5**
+
+📄 **shopping-cart.js**
+   Lines: 90
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - ✅ Uses arrow functions
+    - 💡 Consider using template literals for string interpolation
+    - ✅ Uses modern array methods
+
+   **Score: 4/5**
+
+📄 **deep-clone.js**
+   Lines: 0
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - 💡 Consider using arrow functions
+    - 💡 Consider using template literals for string interpolation
+    - 💡 Consider using array methods (map, filter, reduce)
+
+   **Score: 2/5**
+
+📄 **type-checker.js**
+   Lines: 0
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - 💡 Consider using arrow functions
+    - 💡 Consider using template literals for string interpolation
+    - 💡 Consider using array methods (map, filter, reduce)
+
+   **Score: 2/5**
+
+📄 **validate-password.js**
+   Lines: 0
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - 💡 Consider using arrow functions
+    - 💡 Consider using template literals for string interpolation
+    - 💡 Consider using array methods (map, filter, reduce)
+
+   **Score: 2/5**
+
+### Challenge Score: 44 / 65 (67%)
 
 
 ---
