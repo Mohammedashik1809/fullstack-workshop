@@ -1,3 +1,18 @@
+#!/bin/bash
+
+# Exit immediately if any command fails
+set -e
+
+
+# Validate that a log file argument is provided
+if [ "$#" -eq 0 ]; then
+    echo "Usage: $0 <log_file>"
+    exit 1
+fi
+
+# Assign argument to variable
+LOG_FILE="$1"
+
 # Check if the log file exists
 if [ ! -f "$LOG_FILE" ]; then
     echo "Error: Log file '$LOG_FILE' not found!"
@@ -36,3 +51,4 @@ else
 fi
 
 echo "========================================"
+
