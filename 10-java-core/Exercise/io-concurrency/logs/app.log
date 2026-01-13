@@ -1,0 +1,20 @@
+2024-01-15 10:30:45 INFO User login: alice@email.com
+2024-01-15 10:31:02 ERROR Database connection failed
+2024-01-15 10:32:15 WARN High memory usage: 85%
+2024-01-15 10:33:00 INFO User logout
+2024-01-15 10:34:11 INFO File uploaded
+2024-01-15 10:35:05 ERROR Disk not found
+2024-01-15 10:36:20 WARN CPU spike
+2024-01-15 10:37:30 INFO Cache refreshed
+2024-01-15 10:38:10 INFO Job completed
+2024-01-15 10:39:44 ERROR Timeout occurred
+2024-01-15 10:40:12 INFO Request processed
+2024-01-15 10:41:08 INFO Request processed
+2024-01-15 10:42:55 WARN Memory usage 80%
+2024-01-15 10:43:18 INFO Heartbeat OK
+2024-01-15 10:44:22 INFO User login
+2024-01-15 10:45:03 ERROR Permission denied
+2024-01-15 10:46:50 INFO Cleanup done
+2024-01-15 10:47:31 INFO Cleanup done
+2024-01-15 10:48:15 WARN Network latency
+2024-01-15 10:49:02 INFO Shutdown initiated
