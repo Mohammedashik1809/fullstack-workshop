@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Quiz App</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            padding: 20px;
+        }
+
+        .quiz-container {
+            max-width: 600px;
+            background: white;
+            padding: 20px;
+            margin: auto;
+            border-radius: 8px;
+        }
+
+        .progress {
+            height: 10px;
+            background: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+
+        .progress-bar {
+            height: 100%;
+            width: 0%;
+            background: #4caf50;
+        }
+
+        .timer {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .timer.warning {
+            color: red;
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        .options li {
+            list-style: none;
+            padding: 10px;
+            margin: 8px 0;
+            background: #eee;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .options li.selected {
+            background: #cce5ff;
+        }
+
+        .options li.correct {
+            background: #c8e6c9;
+        }
+
+        .options li.wrong {
+            background: #ffcdd2;
+        }
+
+        .navigation {
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        button {
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+
+        .question-indicators span {
+            margin: 3px;
+            padding: 5px 8px;
+            background: #ddd;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        .question-indicators .active {
+            background: #4caf50;
+            color: white;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="quiz-container">
+    <h2 id="question-text"></h2>
+
+    <div class="progress">
+        <div class="progress-bar"></div>
+    </div>
+
+    <div class="timer">Time Left: <span id="time">30</span>s</div>
+
+    <ul class="options"></ul>
+
+    <div class="question-indicators"></div>
+
+    <div class="navigation">
+        <button id="prev">Previous</button>
+        <button id="next">Next</button>
+        <button id="submit" class="hidden">Submit</button>
+    </div>
+
+    <div id="result" class="hidden"></div>
+</div>
+
+<script src="quiz.js"></script>
+</body>
+</html>

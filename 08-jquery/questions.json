@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "question": "What does HTML stand for?",
+        "options": [
+            "Hyper Text Markup Language",
+            "High Tech Modern Language",
+            "Hyper Transfer Markup Language",
+            "Home Tool Markup Language"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 2,
+        "question": "Which symbol is used for jQuery?",
+        "options": ["$", "#", "%", "&"],
+        "correctAnswer": 0
+    },
+    {
+        "id": 3,
+        "question": "Which method is used to add a class in jQuery?",
+        "options": [
+            ".add()", ".class()", ".addClass()", ".insertClass()"
+        ],
+        "correctAnswer": 2
+    },
+     {
+        "id": 4,
+        "question": "A website form refreshes the page when the submit button is clicked. Which JavaScript technique prevents this behavior?",
+        "options": [
+            "stopPropagation()",
+            "preventDefault()",
+            "clearInterval()",
+            "removeEventListener()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 5,
+        "question": "A web page becomes slow because too many DOM elements are updated repeatedly. What is the best solution?",
+        "options": [
+            "Use more HTML elements",
+            "Reduce DOM manipulation and use batching",
+            "Add more CSS styles",
+            "Reload the page frequently"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 6,
+        "question": "You want to handle click events for dynamically added buttons using jQuery. Which approach should you use?",
+        "options": [
+            "Direct .click() method",
+            "Inline onclick attribute",
+            "Event delegation using .on()",
+            "window.onload event"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 7,
+        "question": "An API request takes time to load data. What should you show to improve user experience?",
+        "options": [
+            "Blank screen",
+            "Console log message",
+            "Loading indicator or spinner",
+            "Alert popup"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 8,
+        "question": "A user selects an option in a dropdown and the page updates without refresh. Which technology enables this behavior?",
+        "options": [
+            "AJAX",
+            "CSS Media Queries",
+            "HTML Tables",
+            "Bootstrap"
+        ],
+        "correctAnswer": 0
+    }
+]
